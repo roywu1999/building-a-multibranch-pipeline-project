@@ -12,7 +12,7 @@ pipeline {
     stages {
         stage('Build') {
             steps {
-                sh 'echo "Hello world!"'
+                sh 'echo "Hello world! by Roy"'
                 sh 'npm install'
             }
         }
